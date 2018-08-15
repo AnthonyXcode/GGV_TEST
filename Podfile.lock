@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManagerSwift (6.1.1)
+  - Repeat (0.5.6)
+  - UICircularProgressRing (3.2.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - Repeat
+  - UICircularProgressRing
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
+    - Repeat
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  Repeat: 79fae833c601ef457148ba6ffae276e5c629ab0a
+  UICircularProgressRing: 12c5b6e9bbe9c254052f31a150d22eaaa3555d01
+
+PODFILE CHECKSUM: ad34b4269bb6368441801c7960a1f925fac6df71
+
+COCOAPODS: 1.5.3

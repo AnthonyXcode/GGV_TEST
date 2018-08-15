@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BD6B3DCEB6F948725AAB4BC /* Pods_GGV_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84CB403505888571722D63B /* Pods_GGV_testTests.framework */; };
+		D4F5F123E7E3CD24EEF31428 /* Pods_GGV_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C187FCE6340051357373FF /* Pods_GGV_test.framework */; };
+		DADAA98C9099068E6CE07A4E /* Pods_GGV_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3632C9755950C7F771B05A0E /* Pods_GGV_testUITests.framework */; };
+		EE6DA0CD21231F170078C7C1 /* Repeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6DA0CC21231F170078C7C1 /* Repeat.framework */; };
+		EE9658E12123CA1E00811932 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9658E02123CA1E00811932 /* IQKeyboardManagerSwift.framework */; };
+		EE9658E32123CCC100811932 /* UICircularProgressRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9658E22123CCC100811932 /* UICircularProgressRing.framework */; };
 		EED6E3D2212302C600A49A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6E3D1212302C600A49A78 /* AppDelegate.swift */; };
 		EED6E3D4212302C600A49A78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6E3D3212302C600A49A78 /* ViewController.swift */; };
 		EED6E3D7212302C600A49A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED6E3D5212302C600A49A78 /* Main.storyboard */; };
@@ -34,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32F0C2D24A57C64643613C52 /* Pods-GGV_testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGV_testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGV_testUITests/Pods-GGV_testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3632C9755950C7F771B05A0E /* Pods_GGV_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGV_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		369A8850D5636D6415C2F8D8 /* Pods-GGV_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGV_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGV_test/Pods-GGV_test.release.xcconfig"; sourceTree = "<group>"; };
+		3D42BA45A755AC43AC8206A9 /* Pods-GGV_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGV_testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGV_testTests/Pods-GGV_testTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B9B2CAD13183B96ABF9E150 /* Pods-GGV_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGV_testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGV_testUITests/Pods-GGV_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CB1AD093A5C8369946EF02 /* Pods-GGV_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGV_testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGV_testTests/Pods-GGV_testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0D9D101182CB9DDA628917 /* Pods-GGV_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGV_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGV_test/Pods-GGV_test.debug.xcconfig"; sourceTree = "<group>"; };
+		E84CB403505888571722D63B /* Pods_GGV_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGV_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6DA0CC21231F170078C7C1 /* Repeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Repeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9658E02123CA1E00811932 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9658E22123CCC100811932 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED6E3CE212302C600A49A78 /* GGV_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGV_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED6E3D1212302C600A49A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED6E3D3212302C600A49A78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,7 @@
 		EED6E3ED212302C800A49A78 /* GGV_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGV_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED6E3F1212302C800A49A78 /* GGV_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGV_testUITests.swift; sourceTree = "<group>"; };
 		EED6E3F3212302C800A49A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C187FCE6340051357373FF /* Pods_GGV_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGV_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9658E32123CCC100811932 /* UICircularProgressRing.framework in Frameworks */,
+				EE9658E12123CA1E00811932 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				EE6DA0CD21231F170078C7C1 /* Repeat.framework in Frameworks */,
+				D4F5F123E7E3CD24EEF31428 /* Pods_GGV_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD6B3DCEB6F948725AAB4BC /* Pods_GGV_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +91,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADAA98C9099068E6CE07A4E /* Pods_GGV_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24E4688E7227A00970DE6E84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D9D101182CB9DDA628917 /* Pods-GGV_test.debug.xcconfig */,
+				369A8850D5636D6415C2F8D8 /* Pods-GGV_test.release.xcconfig */,
+				C8CB1AD093A5C8369946EF02 /* Pods-GGV_testTests.debug.xcconfig */,
+				3D42BA45A755AC43AC8206A9 /* Pods-GGV_testTests.release.xcconfig */,
+				7B9B2CAD13183B96ABF9E150 /* Pods-GGV_testUITests.debug.xcconfig */,
+				32F0C2D24A57C64643613C52 /* Pods-GGV_testUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6442E1512A901F6BF8C5F441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9658E22123CCC100811932 /* UICircularProgressRing.framework */,
+				EE9658E02123CA1E00811932 /* IQKeyboardManagerSwift.framework */,
+				EE6DA0CC21231F170078C7C1 /* Repeat.framework */,
+				F6C187FCE6340051357373FF /* Pods_GGV_test.framework */,
+				E84CB403505888571722D63B /* Pods_GGV_testTests.framework */,
+				3632C9755950C7F771B05A0E /* Pods_GGV_testUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EED6E3C5212302C600A49A78 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				EED6E3E5212302C800A49A78 /* GGV_testTests */,
 				EED6E3F0212302C800A49A78 /* GGV_testUITests */,
 				EED6E3CF212302C600A49A78 /* Products */,
+				24E4688E7227A00970DE6E84 /* Pods */,
+				6442E1512A901F6BF8C5F441 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EED6E3F6212302C800A49A78 /* Build configuration list for PBXNativeTarget "GGV_test" */;
 			buildPhases = (
+				184998B3ADB13A75835697AB /* [CP] Check Pods Manifest.lock */,
 				EED6E3CA212302C600A49A78 /* Sources */,
 				EED6E3CB212302C600A49A78 /* Frameworks */,
 				EED6E3CC212302C600A49A78 /* Resources */,
+				EC8AF9213268C60B4EDAFA86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EED6E3F9212302C800A49A78 /* Build configuration list for PBXNativeTarget "GGV_testTests" */;
 			buildPhases = (
+				AD25CF3488DAB4BC6876A964 /* [CP] Check Pods Manifest.lock */,
 				EED6E3DE212302C800A49A78 /* Sources */,
 				EED6E3DF212302C800A49A78 /* Frameworks */,
 				EED6E3E0212302C800A49A78 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EED6E3FC212302C800A49A78 /* Build configuration list for PBXNativeTarget "GGV_testUITests" */;
 			buildPhases = (
+				862D3B4A5F54F79BCA835AC7 /* [CP] Check Pods Manifest.lock */,
 				EED6E3E9212302C800A49A78 /* Sources */,
 				EED6E3EA212302C800A49A78 /* Frameworks */,
 				EED6E3EB212302C800A49A78 /* Resources */,
@@ -250,6 +306,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		184998B3ADB13A75835697AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGV_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		862D3B4A5F54F79BCA835AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGV_testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD25CF3488DAB4BC6876A964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGV_testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8AF9213268C60B4EDAFA86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GGV_test/Pods-GGV_test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Repeat/Repeat.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Repeat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGV_test/Pods-GGV_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EED6E3CA212302C600A49A78 /* Sources */ = {
@@ -428,6 +563,7 @@
 		};
 		EED6E3F7212302C800A49A78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0D9D101182CB9DDA628917 /* Pods-GGV_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +581,7 @@
 		};
 		EED6E3F8212302C800A49A78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369A8850D5636D6415C2F8D8 /* Pods-GGV_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +599,7 @@
 		};
 		EED6E3FA212302C800A49A78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CB1AD093A5C8369946EF02 /* Pods-GGV_testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +620,7 @@
 		};
 		EED6E3FB212302C800A49A78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D42BA45A755AC43AC8206A9 /* Pods-GGV_testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +641,7 @@
 		};
 		EED6E3FD212302C800A49A78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9B2CAD13183B96ABF9E150 /* Pods-GGV_testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +661,7 @@
 		};
 		EED6E3FE212302C800A49A78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F0C2D24A57C64643613C52 /* Pods-GGV_testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

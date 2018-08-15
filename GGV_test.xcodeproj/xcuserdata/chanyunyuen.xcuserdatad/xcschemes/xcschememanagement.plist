@@ -7,7 +7,25 @@
 		<key>GGV_test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EED6E3CD212302C600A49A78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EED6E3E1212302C800A49A78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EED6E3EC212302C800A49A78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
