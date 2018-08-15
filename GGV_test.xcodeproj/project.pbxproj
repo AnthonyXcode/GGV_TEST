@@ -146,14 +146,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EE9658F22124143400811932 /* Controler */ = {
+		EE1647602124491100F17C59 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EE9658FB2124213700811932 /* RecordTableViewCell.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		EE9658F22124143400811932 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				EE9658EC2124093D00811932 /* HistoryViewController.swift */,
 				EE9658EA2124092D00811932 /* InfoViewController.swift */,
 				EED6E3D3212302C600A49A78 /* ViewController.swift */,
 			);
-			path = Controler;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		EE9658F32124146700811932 /* Tools */ = {
@@ -198,15 +206,15 @@
 		EED6E3D0212302C600A49A78 /* GGV_test */ = {
 			isa = PBXGroup;
 			children = (
+				EE1647602124491100F17C59 /* Component */,
 				EE9658FA212417A000811932 /* RealmDocs */,
 				EE9658F32124146700811932 /* Tools */,
-				EE9658F22124143400811932 /* Controler */,
+				EE9658F22124143400811932 /* Controller */,
 				EED6E3D1212302C600A49A78 /* AppDelegate.swift */,
 				EED6E3D5212302C600A49A78 /* Main.storyboard */,
 				EED6E3D8212302C800A49A78 /* Assets.xcassets */,
 				EED6E3DA212302C800A49A78 /* LaunchScreen.storyboard */,
 				EED6E3DD212302C800A49A78 /* Info.plist */,
-				EE9658FB2124213700811932 /* RecordTableViewCell.swift */,
 			);
 			path = GGV_test;
 			sourceTree = "<group>";

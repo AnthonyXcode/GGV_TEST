@@ -1,20 +1,34 @@
-# COUNTDOWN TIMER
+### COUNTDOWN TIMER
 
-Timer: 
-=====
-![N|Solid](https://firebasestorage.googleapis.com/v0/b/testproject-94fec.appspot.com/o/countdown.gif?alt=media&token=bf98f25c-893c-4ec9-96ec-5959217c32c1)
+![N|Solid](https://firebasestorage.googleapis.com/v0/b/testproject-94fec.appspot.com/o/CounterDownTimer.gif?alt=media&token=507d9908-3e3b-4c58-801a-914ac1709f00)
 
-Profile:
-=====
-![N|Solid](https://firebasestorage.googleapis.com/v0/b/testproject-94fec.appspot.com/o/profile.gif?alt=media&token=4670c4ce-ae26-4b8f-b55e-58b2dd0d27e6)
+### File Structure
+```
+project
+│   README.md
+│   AppDelegate.swift
+│   Main.storyboard    
+│
+└───Controller
+│   │   HistoryViewController.swift
+│   │   InfoViewController.swift
+│   │   ViewController.swift
+│    
+└───Tools
+│   │   Helper.swift
+│   │   Constants.swift
+│   
+└───RealmDocs
+│   │   RecordDoc.swift
+│
+└───Component
+    │   RecordTableViewCell.swift
+```
 
-Record:
-=====
-![N|Solid](https://firebasestorage.googleapis.com/v0/b/testproject-94fec.appspot.com/o/profile.gif?alt=media&token=4670c4ce-ae26-4b8f-b55e-58b2dd0d27e6)
-
-### Installation Environment
-Xcode version: 9.4.1
-MacOs: 10.13.5
+### Development Environment
+Xcode version: 9.4.1 <br>
+MacOs: 10.13.5 <br>
+Iphone 8 plus <br>
 
 ### Plugins
 | Plugin | REPO |
@@ -24,12 +38,7 @@ MacOs: 10.13.5
 | Repeat | https://github.com/malcommac/Repeat |
 | KDCircularProgress | https://github.com/kaandedeoglu/KDCircularProgress |
 
-### Todos
 
- - Add unit test
- - Add UI test
-
-License
-----
+### License
 
 MIT
