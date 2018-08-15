@@ -1,6 +1,6 @@
 ### COUNTDOWN TIMER
 
-<img src="https://firebasestorage.googleapis.com/v0/b/testproject-94fec.appspot.com/o/CounterDownTimer.gif?alt=media"/>
+<img src="./CounterDownTimer.gif?raw=true" width="300px">
 
 ### File Structure
 
