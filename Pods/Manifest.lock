@@ -1,24 +1,43 @@
 PODS:
   - IQKeyboardManagerSwift (6.1.1)
+  - KDCircularProgress (1.5.2)
+  - Realm (3.7.6):
+    - Realm/Headers (= 3.7.6)
+  - Realm/Headers (3.7.6)
+  - RealmSwift (3.7.6):
+    - Realm (= 3.7.6)
   - Repeat (0.5.6)
-  - UICircularProgressRing (3.2.0)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
+  - KDCircularProgress (from `https://github.com/kaandedeoglu/KDCircularProgress.git`, commit `86dbfc98d469d4b632a66d43cacc640667d1eb6f`)
+  - RealmSwift
   - Repeat
-  - UICircularProgressRing
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - IQKeyboardManagerSwift
+    - Realm
+    - RealmSwift
     - Repeat
-    - UICircularProgressRing
+
+EXTERNAL SOURCES:
+  KDCircularProgress:
+    :commit: 86dbfc98d469d4b632a66d43cacc640667d1eb6f
+    :git: https://github.com/kaandedeoglu/KDCircularProgress.git
+
+CHECKOUT OPTIONS:
+  KDCircularProgress:
+    :commit: 86dbfc98d469d4b632a66d43cacc640667d1eb6f
+    :git: https://github.com/kaandedeoglu/KDCircularProgress.git
 
 SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  KDCircularProgress: 12f677b2deb02409ab48c6cae1898d146b8ad549
+  Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
+  RealmSwift: 1fe08b4ebaeeaacf17f9ba0343f7b25c9fc31fa6
   Repeat: 79fae833c601ef457148ba6ffae276e5c629ab0a
-  UICircularProgressRing: 12c5b6e9bbe9c254052f31a150d22eaaa3555d01
 
-PODFILE CHECKSUM: ad34b4269bb6368441801c7960a1f925fac6df71
+PODFILE CHECKSUM: 8779882374cf3b82f4954316b9c5d8b16915d4db
 
 COCOAPODS: 1.5.3

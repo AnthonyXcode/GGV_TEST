@@ -4,12 +4,12 @@
 target 'GGV_test' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
+  # Pods for GGV_test
   pod 'Repeat'
   pod 'IQKeyboardManagerSwift'
-  pod 'UICircularProgressRing'
-
-  # Pods for GGV_test
-
+  pod 'RealmSwift'
+  pod 'KDCircularProgress', :git => 'https://github.com/kaandedeoglu/KDCircularProgress.git', :commit => '86dbfc98d469d4b632a66d43cacc640667d1eb6f'
+  
   target 'GGV_testTests' do
     inherit! :search_paths
     # Pods for testing

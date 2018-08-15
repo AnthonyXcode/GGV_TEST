@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KDCircularProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-GGV_test.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,12 +29,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Repeat.xcscheme</key>
+		<key>Realm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>UICircularProgressRing.xcscheme</key>
+		<key>RealmSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Repeat.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

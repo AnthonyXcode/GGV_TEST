@@ -12,7 +12,15 @@
 		DADAA98C9099068E6CE07A4E /* Pods_GGV_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3632C9755950C7F771B05A0E /* Pods_GGV_testUITests.framework */; };
 		EE6DA0CD21231F170078C7C1 /* Repeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6DA0CC21231F170078C7C1 /* Repeat.framework */; };
 		EE9658E12123CA1E00811932 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9658E02123CA1E00811932 /* IQKeyboardManagerSwift.framework */; };
-		EE9658E32123CCC100811932 /* UICircularProgressRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9658E22123CCC100811932 /* UICircularProgressRing.framework */; };
+		EE9658E52123FCAB00811932 /* KDCircularProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9658E42123FCAB00811932 /* KDCircularProgress.framework */; };
+		EE9658EB2124092D00811932 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9658EA2124092D00811932 /* InfoViewController.swift */; };
+		EE9658ED2124093D00811932 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9658EC2124093D00811932 /* HistoryViewController.swift */; };
+		EE9658EF21240B2A00811932 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9658EE21240B2A00811932 /* Helper.swift */; };
+		EE9658F12124117C00811932 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9658F02124117C00811932 /* Constants.swift */; };
+		EE9658F52124163D00811932 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9658F42124163D00811932 /* RealmSwift.framework */; };
+		EE9658F72124164300811932 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9658F62124164300811932 /* Realm.framework */; };
+		EE9658F92124169E00811932 /* RecordDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9658F82124169E00811932 /* RecordDoc.swift */; };
+		EE9658FC2124213700811932 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9658FB2124213700811932 /* RecordTableViewCell.swift */; };
 		EED6E3D2212302C600A49A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6E3D1212302C600A49A78 /* AppDelegate.swift */; };
 		EED6E3D4212302C600A49A78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6E3D3212302C600A49A78 /* ViewController.swift */; };
 		EED6E3D7212302C600A49A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED6E3D5212302C600A49A78 /* Main.storyboard */; };
@@ -51,6 +59,15 @@
 		EE6DA0CC21231F170078C7C1 /* Repeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Repeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9658E02123CA1E00811932 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9658E22123CCC100811932 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9658E42123FCAB00811932 /* KDCircularProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KDCircularProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9658EA2124092D00811932 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		EE9658EC2124093D00811932 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EE9658EE21240B2A00811932 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EE9658F02124117C00811932 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE9658F42124163D00811932 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9658F62124164300811932 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9658F82124169E00811932 /* RecordDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDoc.swift; sourceTree = "<group>"; };
+		EE9658FB2124213700811932 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		EED6E3CE212302C600A49A78 /* GGV_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGV_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED6E3D1212302C600A49A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED6E3D3212302C600A49A78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9658E32123CCC100811932 /* UICircularProgressRing.framework in Frameworks */,
+				EE9658F72124164300811932 /* Realm.framework in Frameworks */,
+				EE9658F52124163D00811932 /* RealmSwift.framework in Frameworks */,
+				EE9658E52123FCAB00811932 /* KDCircularProgress.framework in Frameworks */,
 				EE9658E12123CA1E00811932 /* IQKeyboardManagerSwift.framework in Frameworks */,
 				EE6DA0CD21231F170078C7C1 /* Repeat.framework in Frameworks */,
 				D4F5F123E7E3CD24EEF31428 /* Pods_GGV_test.framework in Frameworks */,
@@ -114,6 +133,9 @@
 		6442E1512A901F6BF8C5F441 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE9658F62124164300811932 /* Realm.framework */,
+				EE9658F42124163D00811932 /* RealmSwift.framework */,
+				EE9658E42123FCAB00811932 /* KDCircularProgress.framework */,
 				EE9658E22123CCC100811932 /* UICircularProgressRing.framework */,
 				EE9658E02123CA1E00811932 /* IQKeyboardManagerSwift.framework */,
 				EE6DA0CC21231F170078C7C1 /* Repeat.framework */,
@@ -122,6 +144,33 @@
 				3632C9755950C7F771B05A0E /* Pods_GGV_testUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9658F22124143400811932 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				EE9658EC2124093D00811932 /* HistoryViewController.swift */,
+				EE9658EA2124092D00811932 /* InfoViewController.swift */,
+				EED6E3D3212302C600A49A78 /* ViewController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		EE9658F32124146700811932 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EE9658EE21240B2A00811932 /* Helper.swift */,
+				EE9658F02124117C00811932 /* Constants.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EE9658FA212417A000811932 /* RealmDocs */ = {
+			isa = PBXGroup;
+			children = (
+				EE9658F82124169E00811932 /* RecordDoc.swift */,
+			);
+			path = RealmDocs;
 			sourceTree = "<group>";
 		};
 		EED6E3C5212302C600A49A78 = {
@@ -149,12 +198,15 @@
 		EED6E3D0212302C600A49A78 /* GGV_test */ = {
 			isa = PBXGroup;
 			children = (
+				EE9658FA212417A000811932 /* RealmDocs */,
+				EE9658F32124146700811932 /* Tools */,
+				EE9658F22124143400811932 /* Controler */,
 				EED6E3D1212302C600A49A78 /* AppDelegate.swift */,
-				EED6E3D3212302C600A49A78 /* ViewController.swift */,
 				EED6E3D5212302C600A49A78 /* Main.storyboard */,
 				EED6E3D8212302C800A49A78 /* Assets.xcassets */,
 				EED6E3DA212302C800A49A78 /* LaunchScreen.storyboard */,
 				EED6E3DD212302C800A49A78 /* Info.plist */,
+				EE9658FB2124213700811932 /* RecordTableViewCell.swift */,
 			);
 			path = GGV_test;
 			sourceTree = "<group>";
@@ -370,14 +422,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GGV_test/Pods-GGV_test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Repeat/Repeat.framework",
-				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Repeat.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -392,7 +448,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED6E3D4212302C600A49A78 /* ViewController.swift in Sources */,
+				EE9658EB2124092D00811932 /* InfoViewController.swift in Sources */,
+				EE9658EF21240B2A00811932 /* Helper.swift in Sources */,
 				EED6E3D2212302C600A49A78 /* AppDelegate.swift in Sources */,
+				EE9658ED2124093D00811932 /* HistoryViewController.swift in Sources */,
+				EE9658F92124169E00811932 /* RecordDoc.swift in Sources */,
+				EE9658FC2124213700811932 /* RecordTableViewCell.swift in Sources */,
+				EE9658F12124117C00811932 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
