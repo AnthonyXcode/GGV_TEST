@@ -30,7 +30,8 @@ project
 
 Xcode version: 9.4.1 <br>
 MacOs: 10.13.5 <br>
-Iphone 8 plus <br>
+Divice: Iphone 8 plus <br>
+Pod version: 1.5.3
 
 ### Plugins
 
