@@ -28,6 +28,17 @@
 		EED6E3DC212302C800A49A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED6E3DA212302C800A49A78 /* LaunchScreen.storyboard */; };
 		EED6E3E7212302C800A49A78 /* GGV_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6E3E6212302C800A49A78 /* GGV_testTests.swift */; };
 		EED6E3F2212302C800A49A78 /* GGV_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6E3F1212302C800A49A78 /* GGV_testUITests.swift */; };
+		EEE4DA8E2174C913004C04C2 /* CountDownComponent+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4DA8D2174C913004C04C2 /* CountDownComponent+UserInfo.swift */; };
+		EEFCCF2E216A254300EE1B1F /* CountDownRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF2A216A254300EE1B1F /* CountDownRouter.swift */; };
+		EEFCCF2F216A254300EE1B1F /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF2B216A254300EE1B1F /* CountDownViewController.swift */; };
+		EEFCCF30216A254300EE1B1F /* CountDownBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF2C216A254300EE1B1F /* CountDownBuilder.swift */; };
+		EEFCCF31216A254300EE1B1F /* CountDownInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF2D216A254300EE1B1F /* CountDownInteractor.swift */; };
+		EEFCCF33216A262900EE1B1F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFCCF32216A262900EE1B1F /* SnapKit.framework */; };
+		EEFCCF35216A2DEE00EE1B1F /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF34216A2DEE00EE1B1F /* AppComponent.swift */; };
+		EEFCCF3B216A3C4A00EE1B1F /* UserInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF37216A3C4A00EE1B1F /* UserInfoRouter.swift */; };
+		EEFCCF3C216A3C4A00EE1B1F /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF38216A3C4A00EE1B1F /* UserInfoViewController.swift */; };
+		EEFCCF3D216A3C4A00EE1B1F /* UserInfoBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF39216A3C4A00EE1B1F /* UserInfoBuilder.swift */; };
+		EEFCCF3E216A3C4A00EE1B1F /* UserInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFCCF3A216A3C4A00EE1B1F /* UserInfoInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +92,17 @@
 		EED6E3ED212302C800A49A78 /* GGV_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGV_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED6E3F1212302C800A49A78 /* GGV_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGV_testUITests.swift; sourceTree = "<group>"; };
 		EED6E3F3212302C800A49A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4DA8D2174C913004C04C2 /* CountDownComponent+UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountDownComponent+UserInfo.swift"; sourceTree = "<group>"; };
+		EEFCCF2A216A254300EE1B1F /* CountDownRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownRouter.swift; sourceTree = "<group>"; };
+		EEFCCF2B216A254300EE1B1F /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
+		EEFCCF2C216A254300EE1B1F /* CountDownBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownBuilder.swift; sourceTree = "<group>"; };
+		EEFCCF2D216A254300EE1B1F /* CountDownInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownInteractor.swift; sourceTree = "<group>"; };
+		EEFCCF32216A262900EE1B1F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFCCF34216A2DEE00EE1B1F /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		EEFCCF37216A3C4A00EE1B1F /* UserInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoRouter.swift; sourceTree = "<group>"; };
+		EEFCCF38216A3C4A00EE1B1F /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		EEFCCF39216A3C4A00EE1B1F /* UserInfoBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoBuilder.swift; sourceTree = "<group>"; };
+		EEFCCF3A216A3C4A00EE1B1F /* UserInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoInteractor.swift; sourceTree = "<group>"; };
 		F6C187FCE6340051357373FF /* Pods_GGV_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGV_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFCCF33216A262900EE1B1F /* SnapKit.framework in Frameworks */,
 				EE9658F72124164300811932 /* Realm.framework in Frameworks */,
 				EE9658F52124163D00811932 /* RealmSwift.framework in Frameworks */,
 				EE9658E52123FCAB00811932 /* KDCircularProgress.framework in Frameworks */,
@@ -133,6 +156,7 @@
 		6442E1512A901F6BF8C5F441 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EEFCCF32216A262900EE1B1F /* SnapKit.framework */,
 				EE9658F62124164300811932 /* Realm.framework */,
 				EE9658F42124163D00811932 /* RealmSwift.framework */,
 				EE9658E42123FCAB00811932 /* KDCircularProgress.framework */,
@@ -157,6 +181,7 @@
 		EE9658F22124143400811932 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EED6E3D5212302C600A49A78 /* Main.storyboard */,
 				EE9658EC2124093D00811932 /* HistoryViewController.swift */,
 				EE9658EA2124092D00811932 /* InfoViewController.swift */,
 				EED6E3D3212302C600A49A78 /* ViewController.swift */,
@@ -206,15 +231,13 @@
 		EED6E3D0212302C600A49A78 /* GGV_test */ = {
 			isa = PBXGroup;
 			children = (
+				EED6E3DD212302C800A49A78 /* Info.plist */,
+				EEFCCF28216A24E400EE1B1F /* Screens */,
+				EEFCCF27216A18BE00EE1B1F /* AppStart */,
 				EE1647602124491100F17C59 /* Component */,
 				EE9658FA212417A000811932 /* RealmDocs */,
 				EE9658F32124146700811932 /* Tools */,
 				EE9658F22124143400811932 /* Controller */,
-				EED6E3D1212302C600A49A78 /* AppDelegate.swift */,
-				EED6E3D5212302C600A49A78 /* Main.storyboard */,
-				EED6E3D8212302C800A49A78 /* Assets.xcassets */,
-				EED6E3DA212302C800A49A78 /* LaunchScreen.storyboard */,
-				EED6E3DD212302C800A49A78 /* Info.plist */,
 			);
 			path = GGV_test;
 			sourceTree = "<group>";
@@ -235,6 +258,49 @@
 				EED6E3F3212302C800A49A78 /* Info.plist */,
 			);
 			path = GGV_testUITests;
+			sourceTree = "<group>";
+		};
+		EEFCCF27216A18BE00EE1B1F /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				EED6E3D1212302C600A49A78 /* AppDelegate.swift */,
+				EED6E3D8212302C800A49A78 /* Assets.xcassets */,
+				EED6E3DA212302C800A49A78 /* LaunchScreen.storyboard */,
+				EEFCCF34216A2DEE00EE1B1F /* AppComponent.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		EEFCCF28216A24E400EE1B1F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCCF36216A3C3200EE1B1F /* UserInfo */,
+				EEFCCF29216A24FC00EE1B1F /* CountDonw */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EEFCCF29216A24FC00EE1B1F /* CountDonw */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCCF2A216A254300EE1B1F /* CountDownRouter.swift */,
+				EEFCCF2B216A254300EE1B1F /* CountDownViewController.swift */,
+				EEFCCF2C216A254300EE1B1F /* CountDownBuilder.swift */,
+				EEFCCF2D216A254300EE1B1F /* CountDownInteractor.swift */,
+				EEE4DA8D2174C913004C04C2 /* CountDownComponent+UserInfo.swift */,
+			);
+			path = CountDonw;
+			sourceTree = "<group>";
+		};
+		EEFCCF36216A3C3200EE1B1F /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCCF37216A3C4A00EE1B1F /* UserInfoRouter.swift */,
+				EEFCCF38216A3C4A00EE1B1F /* UserInfoViewController.swift */,
+				EEFCCF39216A3C4A00EE1B1F /* UserInfoBuilder.swift */,
+				EEFCCF3A216A3C4A00EE1B1F /* UserInfoInteractor.swift */,
+			);
+			path = UserInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,17 +497,23 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GGV_test/Pods-GGV_test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/RIBs/RIBs.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Repeat/Repeat.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RIBs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Repeat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -455,13 +527,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFCCF31216A254300EE1B1F /* CountDownInteractor.swift in Sources */,
 				EED6E3D4212302C600A49A78 /* ViewController.swift in Sources */,
+				EEFCCF3D216A3C4A00EE1B1F /* UserInfoBuilder.swift in Sources */,
+				EEFCCF2E216A254300EE1B1F /* CountDownRouter.swift in Sources */,
+				EEFCCF2F216A254300EE1B1F /* CountDownViewController.swift in Sources */,
 				EE9658EB2124092D00811932 /* InfoViewController.swift in Sources */,
+				EEFCCF30216A254300EE1B1F /* CountDownBuilder.swift in Sources */,
+				EEFCCF3E216A3C4A00EE1B1F /* UserInfoInteractor.swift in Sources */,
 				EE9658EF21240B2A00811932 /* Helper.swift in Sources */,
+				EEFCCF3C216A3C4A00EE1B1F /* UserInfoViewController.swift in Sources */,
+				EEE4DA8E2174C913004C04C2 /* CountDownComponent+UserInfo.swift in Sources */,
+				EEFCCF3B216A3C4A00EE1B1F /* UserInfoRouter.swift in Sources */,
 				EED6E3D2212302C600A49A78 /* AppDelegate.swift in Sources */,
 				EE9658ED2124093D00811932 /* HistoryViewController.swift in Sources */,
 				EE9658F92124169E00811932 /* RecordDoc.swift in Sources */,
 				EE9658FC2124213700811932 /* RecordTableViewCell.swift in Sources */,
+				EEFCCF35216A2DEE00EE1B1F /* AppComponent.swift in Sources */,
 				EE9658F12124117C00811932 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,6 +719,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W3R3WJ6X8;
 				INFOPLIST_FILE = GGV_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -655,6 +738,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W3R3WJ6X8;
 				INFOPLIST_FILE = GGV_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

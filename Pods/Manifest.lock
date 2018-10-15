@@ -7,12 +7,18 @@ PODS:
   - RealmSwift (3.7.6):
     - Realm (= 3.7.6)
   - Repeat (0.5.6)
+  - RIBs (0.9.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
   - KDCircularProgress (from `https://github.com/kaandedeoglu/KDCircularProgress.git`, commit `86dbfc98d469d4b632a66d43cacc640667d1eb6f`)
   - RealmSwift
   - Repeat
+  - RIBs (~> 0.9)
+  - SnapKit (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -20,6 +26,9 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - Repeat
+    - RIBs
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   KDCircularProgress:
@@ -37,7 +46,10 @@ SPEC CHECKSUMS:
   Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
   RealmSwift: 1fe08b4ebaeeaacf17f9ba0343f7b25c9fc31fa6
   Repeat: 79fae833c601ef457148ba6ffae276e5c629ab0a
+  RIBs: 879184fbca567425c488d6b3d14a9c5abfbf9d47
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 8779882374cf3b82f4954316b9c5d8b16915d4db
+PODFILE CHECKSUM: 1ef5c1c07558ef4f69647d8d2a5affec497be769
 
 COCOAPODS: 1.5.3

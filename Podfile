@@ -9,6 +9,8 @@ target 'GGV_test' do
   pod 'IQKeyboardManagerSwift'
   pod 'RealmSwift'
   pod 'KDCircularProgress', :git => 'https://github.com/kaandedeoglu/KDCircularProgress.git', :commit => '86dbfc98d469d4b632a66d43cacc640667d1eb6f'
+  pod 'RIBs', '~> 0.9'
+  pod 'SnapKit', '~> 4.0.0'
   
   target 'GGV_testTests' do
     inherit! :search_paths
